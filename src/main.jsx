@@ -7,10 +7,11 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
-import Home from './components/Home/Home';
+
 import Statistics from './components/Statistics/Statistics';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blogs from './components/Blogs/Blogs';
+import HomePage from './components/HomePage/HomePage';
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>
+        element: <HomePage></HomePage>
       },
       {
         path: "/Statistics",

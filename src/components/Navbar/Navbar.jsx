@@ -11,7 +11,7 @@ import {
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
-    <div className=' px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
+    <div className='px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
       <div className='relative flex items-center justify-between'>
         {/* Hero icon Logo Section */}
         <Link to='/' className='inline-flex items-center'>
@@ -72,6 +72,7 @@ const Navbar = () => {
                       Developer Hire
                       </span>
                     </Link>
+                    <button className="rounded-lg p-2.5 text-white bg-indigo-500 ">Start Applying</button>
                   </div>
                   {/* Dropdown menu close button */}
                   <div>
