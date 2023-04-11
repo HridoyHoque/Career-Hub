@@ -23,6 +23,14 @@ const Navbar = () => {
         <ul className='items-center hidden space-x-8 lg:flex'>
           <li>
             <NavLink
+              to='/'
+              className={({ isActive }) => (isActive ? 'active' : 'default')}
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to='/Statistics'
               className={({ isActive }) => (isActive ? 'active' : 'default')}
             >
@@ -48,7 +56,7 @@ const Navbar = () => {
         </ul>
 
         {/*Apply Button Section */}
-        <button className="rounded-lg p-2.5 text-white bg-indigo-500 ">Start Applying</button>
+        <button className="hover:bg-violet-600 apply-btn rounded-lg p-2.5 text-white bg-indigo-500 ">Start Applying</button>
 
         {/* Mobile Navbar Section */}
         <div className='lg:hidden'>

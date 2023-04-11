@@ -19,7 +19,7 @@ const HeaderHomePage = () => {
             </p>
           </div>
           <div className='flex flex-col items-center md:flex-row '>
-          <button className="rounded-lg p-2.5 text-white bg-indigo-500 ">Get Started</button>
+          <button className="rounded-lg p-2.5 text-white bg-indigo-500  hover:bg-violet-600">Get Started</button>
            
           </div>
         </div>
