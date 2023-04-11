@@ -4,7 +4,7 @@ import './HeaderHomePage.css'
 
 const HeaderHomePage = () => {
     return (
-        <div className='my-container mx-auto flex flex-col items-center justify-between lg:flex-row'>
+        <div className='Header-container my-container mx-auto flex flex-col items-center justify-between lg:flex-row'>
         {/* Header Text Content */}
         <div className='mb-10 lg:max-w-lg  lg:pr-5 lg:mb-0'>
           <div className='max-w-xl mb-6 lg:mt-8'>
