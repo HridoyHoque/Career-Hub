@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getShoppingCart } from '../../fakedb';
 import { Link } from 'react-router-dom';
+import './AppliedJobs.css'
 
 const AppliedJobs = () => {
     const [myData, setMydata] = useState([])
@@ -27,7 +28,8 @@ const AppliedJobs = () => {
     }, [localData]);
     return (
         <div className='p-5 md:px-16 mt-5'>
-        <h3 className='text-center font-bold py-5 text-3xl'>Applied Jobs</h3>
+            <img className='banner-appliedJob' src="https://i.ibb.co/WDX9H1s/Vector.png" alt="" /> <h3 className='appliedJobText text-center font-bold py-5 text-3xl'>Applied Jobs</h3>
+        
         <hr />
 
         {newData.map(data => (

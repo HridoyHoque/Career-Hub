@@ -21,6 +21,7 @@ const Jobdetails = () => {
     }
     return (
         <div className='p-5 md:px-16'>
+            <img src="https://i.ibb.co/WDX9H1s/Vector.png" alt="" />
             <h2 className='text-3xl font-bold text-center py-5'>Job Details</h2>
             {singleData ? (
                 <div className=' grid grid-cols-1 md:grid-cols-3 justify-between gap-5 '>

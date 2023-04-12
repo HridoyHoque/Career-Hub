@@ -3,6 +3,7 @@ import React from 'react';
 const Blog = () => {
     return (
         <div>
+            <img  src="https://i.ibb.co/WDX9H1s/Vector.png" alt="" />
             <h3 className='text-3xl font-bold text-center py-4 mb-2'>Blog Page</h3>
             <h3 className='text-3xl font-bold text-center py-4 mb-2'>Questions & Answer</h3>
             <hr />

@@ -39,6 +39,7 @@ const Statisticks = () => {
 
     return (
         <div className='p-3 lg:px-16'>
+        <img src="https://i.ibb.co/WDX9H1s/Vector.png" alt="" /> 
         <h3 className='text-center font-semibold text-2xl py-5'>My Assignment Marks (A1-A8)</h3>
         <hr className='mb-5' />
         <ResponsiveContainer width='100%' height={200}>

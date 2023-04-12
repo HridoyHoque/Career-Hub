@@ -80,7 +80,7 @@ const Navbar = () => {
                       Developer Hire
                       </span>
                     </Link>
-                    <button className="rounded-lg p-2.5 text-white bg-indigo-500 ">Start Applying</button>
+                    <Link to="/"><button className="rounded-lg p-2.5 text-white bg-indigo-500 ">Start Applying</button></Link>
                   </div>
                   {/* Dropdown menu close button */}
                   <div>
