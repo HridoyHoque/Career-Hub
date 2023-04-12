@@ -1,6 +1,4 @@
 import React from 'react';
-import locationIcon from '../../assets/Icons/Location Icon.png';
-import DollarIcon from '../../assets/Icons/Frame.png';
 import { Link } from 'react-router-dom';
 const FeaturedJobsCard = ({ featurejob }) => {
     const {id, title, image, company, type, salary, location } = featurejob;
@@ -21,11 +19,11 @@ const FeaturedJobsCard = ({ featurejob }) => {
                 </div>
                 <div className='py-2 flex gap-3'>
                     <div className='flex gap-1'>
-                        <img src={locationIcon} alt="" />
+                        <img src="https://i.ibb.co/h7Ck8Tv/Frame-4.png" alt="" />
                         {location}
                     </div>
                     <div className='flex gap-1'>
-                        <img src={DollarIcon} alt="" />
+                        <img src="https://i.ibb.co/cvqFrgj/Frame.png" alt="" />
                         Salary: {salary}
                     </div>
                 </div>

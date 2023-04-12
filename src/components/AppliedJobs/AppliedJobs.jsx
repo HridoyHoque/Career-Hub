@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getShoppingCart } from '../../fakedb';
+import { Link } from 'react-router-dom';
 
 const AppliedJobs = () => {
     const [myData, setMydata] = useState([])
@@ -43,12 +44,18 @@ const AppliedJobs = () => {
                             <div className='border-2 p-2 border-blue-500 text-blue-500'>{data.type.fullTime}</div>
                         </div>
                         <div className='flex gap-3'>
-                            <div>{data.location}</div>
-                            <div>{data.salary}</div>
+                            <div>
+                           
+                                <img src="https://i.ibb.co/h7Ck8Tv/Frame-4.png" alt="" />
+                                {data.location}
+                            </div>
+                            <div>
+                                <img src="https://i.ibb.co/cvqFrgj/Frame.png" alt="" />
+                                {data.salary}</div>
                         </div>
                     </div>
                     <div>
-                        <button disabled className='px-4 py-3 rounded text-white bg-primary text-sm w-52 mt-4'>Apply Now</button>
+                        <button className="rounded-lg p-2.5 text-white bg-indigo-500  hover:bg-violet-600">View Details</button>
                     </div>
                 </div>
             </div>

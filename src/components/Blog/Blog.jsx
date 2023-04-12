@@ -10,19 +10,19 @@ const Blog = () => {
             <div className='p-5 grid grid-cols-1 md:grid-cols-2 gap-3 lg:px-16'>
                 <div className='border-2 p-4'>
                     <h3 className='text-1xl font-semibold py-3'>What is ContextApi ?</h3>
-                    <p>Answer: It uses to pass data from parent to children component tree directly, instead of passing it down through a chain of props</p>
+                    <p>Answer: Context API is a feature in React that allows for sharing data and state across multiple components in a React application without passing data explicitly through props. It simplifies global state management in large or complex applications by providing a way to share data across components at different levels of the component tree.</p>
                 </div>
                 <div className='border-2 p-4'>
                     <h3 className='text-1xl font-semibold py-3'>What is custom hook in react.js?</h3>
-                    <p>Answer: Instead of writing the same code across multiple components that use the same common stateful logic like (“setState”), you can put that code inside a custom hook and reuse it.</p>
+                    <p>Answer: A custom hook in React is a reusable JavaScript function that encapsulates stateful logic and can be used across multiple components. Custom hooks allow for extracting common logic, such as handling state, side effects, and data fetching, into separate functions, promoting code reusability and maintainability in React applications.</p>
                 </div>
                 <div className='border-2 p-4'>
                     <h3 className='text-1xl font-semibold py-3'>What is useRef in react.js?</h3>
-                    <p>Answer: useRef is used to create a reference object</p>
+                    <p>Answer: useRef is a built-in hook in React that allows for creating a mutable reference to a DOM element or a value that persists across renders. It can be used to directly access and manipulate DOM elements, manage focus, or store values that do not trigger re-renders, making it useful for certain optimizations and interactions in React components.</p>
                 </div>
                 <div className='border-2 p-4'>
                     <h3 className='text-1xl font-semibold py-3'>What is useMemo in react.js?</h3>
-                    <p>Answer: It memoizes the calculation result, and returns it to the component.</p>
+                    <p>Answer: "UseMemo" is a built-in hook in React that allows for memoizing the result of a computation and caching it until certain dependencies change. It can optimize performance by preventing unnecessary re-computations in functional components, especially for expensive calculations or operations, by only recomputing when necessary, based on the provided dependencies.</p>
                 </div>
             </div>
         </div>

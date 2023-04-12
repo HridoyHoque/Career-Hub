@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 import { addToDb } from '../../fakedb';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import './Jobdetails.css'
 
 const Jobdetails = () => {
     const { id } = useParams();
