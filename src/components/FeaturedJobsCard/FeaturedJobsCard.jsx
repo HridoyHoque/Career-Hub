@@ -1,8 +1,9 @@
 import React from 'react';
 import locationIcon from '../../assets/Icons/Location Icon.png';
 import DollarIcon from '../../assets/Icons/Frame.png';
+import { Link } from 'react-router-dom';
 const FeaturedJobsCard = ({ featurejob }) => {
-    const { title, image, company, type, salary, location } = featurejob;
+    const {id, title, image, company, type, salary, location } = featurejob;
 
     return (
         <div>
@@ -28,7 +29,9 @@ const FeaturedJobsCard = ({ featurejob }) => {
                         Salary: {salary}
                     </div>
                 </div>
-                
+                <div className='py-2'>
+                    <Link to={`/Jobdetails/${id}`} className="rounded-lg p-2.5 text-white bg-indigo-500  hover:bg-violet-600">View Details</Link>
+                </div>
             </div>
         </div>
     );

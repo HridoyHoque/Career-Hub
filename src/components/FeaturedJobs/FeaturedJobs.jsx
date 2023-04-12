@@ -25,7 +25,7 @@ const FeaturedJobs = () => {
             <div className='text-center my-3'>
                 {
                     sliceData == 4 ?
-                        <><button onClick={() => setSliceData(6)} className='px-9 py-3 rounded text-white bg-blue-900 text-sm'>See All</button></>
+                        <><button onClick={() => setSliceData(6)} className='px-9 py-3 rounded text-white bg-indigo-500  hover:bg-violet-600'>See All</button></>
                         :
                         <></>
                 }
