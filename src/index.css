@@ -2,8 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.bannerText{
-  position: absolute;
-  top: 100px;
-  left: 600px;
-}
