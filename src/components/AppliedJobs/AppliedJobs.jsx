@@ -28,7 +28,7 @@ const AppliedJobs = () => {
     }, [localData]);
     return (
         <div className='p-5 md:px-16 mt-5'>
-            <img className='banner-appliedJob' src="https://i.ibb.co/WDX9H1s/Vector.png" alt="" /> <h3 className='appliedJobText text-center font-bold py-5 text-3xl'>Applied Jobs</h3>
+            <img className='banner-appliedJob' src="https://i.ibb.co/WDX9H1s/Vector.png" alt="" /> <h3 className='bannerText text-center font-bold py-5 text-3xl'>Applied Jobs</h3>
         
         <hr />
 

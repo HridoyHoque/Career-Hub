@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { addToDb } from '../../fakedb';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './Jobdetails.css'
 
 const Jobdetails = () => {
     const { id } = useParams();
@@ -22,7 +23,7 @@ const Jobdetails = () => {
     return (
         <div className='p-5 md:px-16'>
             <img src="https://i.ibb.co/WDX9H1s/Vector.png" alt="" />
-            <h2 className='text-3xl font-bold text-center py-5'>Job Details</h2>
+            <h2 className='bannerText text-3xl font-bold text-center py-5'>Job Details</h2>
             {singleData ? (
                 <div className=' grid grid-cols-1 md:grid-cols-3 justify-between gap-5 '>
                     <div className='col-span-2'>
