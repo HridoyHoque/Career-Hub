@@ -10,7 +10,7 @@ const Blog = () => {
             <div className='p-5 grid grid-cols-1 md:grid-cols-2 gap-3 lg:px-16'>
                 <div className='border-2 p-4'>
                     <h3 className='text-1xl font-semibold py-3'>What is ContextApi ?</h3>
-                    <p>Answer: Context API is a feature in React that allows for sharing data and state across multiple components in a React application without passing data explicitly through props. It simplifies global state management in large or complex applications by providing a way to share data across components at different levels of the component tree.</p>
+                    <p>Answer: Context API in React can be used in situations where data needs to be shared across multiple components at different levels of the component tree, and passing data through props becomes cumbersome or impractical. It's useful for managing global state, theme settings, user authentication, or any other data that needs to be accessed by multiple components without prop drilling.</p>
                 </div>
                 <div className='border-2 p-4'>
                     <h3 className='text-1xl font-semibold py-3'>What is custom hook in react.js?</h3>
